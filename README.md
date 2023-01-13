@@ -1,7 +1,8 @@
-# bad-diagram
-
 ```mermaid
-flowchart
-    node
-    click node "https://www.google.com"
+flowchart TD
+    subgraph A
+        B
+    end
+
+    click B "https://github.com/" _blank
 ```
